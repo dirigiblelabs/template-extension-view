@@ -9,7 +9,7 @@
  */
 
 exports.getView = function() {
-	var view = {
+	return {
 		"id": "{{fileName}}",
 		"name": "{{viewName}}",
 		"factory": "frame",
@@ -17,5 +17,4 @@ exports.getView = function() {
 		"label": "{{viewName}}",
 		"link": "../{{projectName}}/{{fileName}}.html"
 	};
-	return view;
 };
