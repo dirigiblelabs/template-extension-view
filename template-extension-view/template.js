@@ -1,6 +1,6 @@
 exports.getTemplate = function() {
 	return {
-		"name": "Extension View",
+		"name": "Extension (View)",
 		"description": "Extension view for the IDE",
 		"sources": [{
 			"location": "/template-extension-view/views/view/index.html.template", 
